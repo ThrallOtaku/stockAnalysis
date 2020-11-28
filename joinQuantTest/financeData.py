@@ -57,7 +57,6 @@ for stock_code in fundList:
 
 
 
-
 #查询所有股票按当日新增关注人数排名的前10只个股
 # df4=finance.run_query(query(finance.STK_XUEQIU_PUBLIC).filter(finance.STK_XUEQIU_PUBLIC.day=='2018-12-04').order_by(finance.STK_XUEQIU_PUBLIC.new_follower.desc()).limit(10))
 # print(df4)
